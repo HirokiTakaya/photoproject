@@ -1,0 +1,14 @@
+{% extends'base.html'%}
+{% block title %}Registration complete{% endblock %}
+{% block contents %}
+<div class="container">
+    <div class="row">
+        <div class="col offset-4 py-4">
+            <h3>Succesful to register!</h3>
+            <p><a href="{% url 'accounts:login' %}">You can log in</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
